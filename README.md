@@ -27,24 +27,27 @@ This project is a Streamlit web application that allows users to upload PDF file
    cd langchain-gemini-Chat-PDFs
 
 2. **Create a virtual environment**:
-
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. **Install the dependencies**:
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 4. **Set up environment variables**:
-Create a .env file in the root of the project and add your Google API key:
-GOOGLE_API_KEY=your-google-api-key
+    Create a .env file in the root of the project and add your Google API key:
+    GOOGLE_API_KEY=your-google-api-key
 
 5. **Run the application**:
-streamlit run app.py
+    ```bash
+    streamlit run app.py
 
 6. **Docker (Optional)**:
-Build and run the application using Docker:
-docker build -t my-streamlit-app .
-docker run -p 8501:8501 my-streamlit-app
+    Build and run the application using Docker:
+    ```bash
+    docker build -t my-streamlit-app .
+    docker run -p 8501:8501 my-streamlit-app
 
 **Usage**
 Upload PDFs: Use the sidebar to upload your PDF files.
