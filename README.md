@@ -49,12 +49,12 @@ This project is a Streamlit web application that allows users to upload PDF file
     docker build -t my-streamlit-app .
     docker run -p 8501:8501 my-streamlit-app
 
-**Usage**
+## Usage
     Upload PDFs: Use the sidebar to upload your PDF files.
     Process PDFs: Click on the "Submit & Process" button to extract and process the text.
     Ask Questions: Type your question in the input box and receive answers based on the PDF content.
 
-**Project Structure**
+## Project Structure
 
     ├── app.py               # Main Streamlit application
     ├── Dockerfile           # Docker configuration file
@@ -64,9 +64,9 @@ This project is a Streamlit web application that allows users to upload PDF file
     ├── venv/                # Python virtual environment (excluded from Git)
     └── README.md            # Project documentation
 
-**Known Issues**
+## Known Issues
     Network Interruption: Occasionally, network issues might cause connection problems.
     WSL Errors: On Windows, Docker might have issues with WSL. Ensure WSL2 is correctly configured.
 
-**Contributing**
+## Contributing
     Feel free to submit issues or pull requests. Contributions are welcome!
